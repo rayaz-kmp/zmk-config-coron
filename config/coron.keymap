@@ -73,10 +73,10 @@
 
         default_Az_layer {
             bindings = <
-&kp TAB           &kp Q             &kp W         &kp E           &kp R                        &kp T        &kp Y                          &kp U        &lt 5 I    &kp O      &kp P                  &kp BACKSPACE
-&kp LEFT_CONTROL  &kp A             &kp S         &kp D           &kp F                        &kp G        &kp LS(LG(S))                  &kp AT_SIGN  &kp H      &kp J      &kp K                  &kp L          &kp MINUS  &kp ENTER
-&kp LEFT_SHIFT    &mt LEFT_SHIFT Z  &kp X         &kp C           &kp V                        &kp B        &kp SQT                        &kp UNDER    &kp N      &kp M      &kp COMMA              &kp DOT        &kp SLASH  &kp LEFT_PARENTHESIS
-&kp LEFT_ALT      &kp PLUS          &kp LEFT_WIN  &kp LANGUAGE_5  &lt_to_layer_0 6 INT_HENKAN  &lt 2 SPACE  &lt_to_layer_0 3 INT_MUHENKAN  &kp DELETE   &lt 1 ESC  &kp COLON  &kp RIGHT_PARENTHESIS
+&kp TAB           &kp Q             &kp W         &kp E           &kp R                        &kp T        &kp Y                          &kp U          &lt 5 I      &kp O      &kp P                  &kp DELETE
+&kp LEFT_CONTROL  &kp A             &kp S         &kp D           &kp F                        &kp G        &kp LS(LG(S))                  &kp AT_SIGN    &kp H        &kp J      &kp K                  &kp L       &kp MINUS  &kp ESCAPE
+&kp LEFT_SHIFT    &mt LEFT_SHIFT Z  &kp X         &kp C           &kp V                        &kp B        &kp SQT                        &kp UNDER      &kp N        &kp M      &kp COMMA              &kp DOT     &kp SLASH  &kp LEFT_PARENTHESIS
+&kp LEFT_ALT      &kp PLUS          &kp LEFT_WIN  &kp LANGUAGE_5  &lt_to_layer_0 6 INT_HENKAN  &lt 2 SPACE  &lt_to_layer_0 3 INT_MUHENKAN  &kp BACKSPACE  &lt 1 ENTER  &kp COLON  &kp RIGHT_PARENTHESIS
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
